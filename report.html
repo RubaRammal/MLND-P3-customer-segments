@@ -12231,7 +12231,7 @@ div#notebook {
 <ul>
 <li>I attempted predicting the Milk feature.</li>
 <li>0.344473979906.</li>
-<li>The feature is important since the score is very low.</li>
+<li>The feature has low r^2 score which means it cannot always be predicted from other features which indicates that it is important and contains unique information.</li>
 </ul>
 
 </div>
@@ -19608,10 +19608,10 @@ QmCC
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <p>70.68% of the variance in the data is explained by the 1st and 2nd principal component and 93.11% is explained by the first four principal components.</p>
-<p>The most variance is explained in the first principle component (44.30% variance) with positive weights for Frozen and Fresh and negative weights for the remaining features so costumers with high values on this dimension would spend more on Frozen and Fresh.</p>
-<p>Costumers with high values on the second princepal components (26.38% variance), will not spend much on any of the features, but will spend most on Detergents_Paper and Grocery.</p>
-<p>For the third princepal components (12.31% variance) above average spending will be on Delicatessen and Frozen and less spening on Milk. The lowest spending is Fresh in this dimension.</p>
-<p>In the fourth princepal components (10.12% variance) most spending will be on Milk and Grocery and least on Detegents_Paper.</p>
+<p>The most variance is explained in the first principle component (44.30% variance) costumers with high values on this dimension would spend above average on Detergents_Paper and about average on Milk, Grocery.</p>
+<p>Costumers with high values on the second princepal components (26.38% variance), would spend the most on Fresh, Frozen and Delicatessen.</p>
+<p>For the third princepal components (12.31% variance) when the most spending is on Delicatessen and Frozen, Fresh would have the least spending.</p>
+<p>In the fourth princepal components (10.12% variance) when the most spending is on Frozen and to a lesser extent on Detergents_Paper, the least spending would be on Delicatessen.</p>
 
 </div>
 </div>
